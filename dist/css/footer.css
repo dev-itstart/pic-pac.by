@@ -1,0 +1,293 @@
+footer {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  background: #FAF7F7;
+  border-top: 1px solid #CCC7BF;
+}
+
+.footer__content {
+  margin-left: -24px;
+  margin-right: -24px;
+  align-items: flex-start;
+}
+
+.footer__info {
+  width: 528px;
+  padding: 24px;
+}
+
+.footer__logo {
+  width: 144px;
+  margin-bottom: 64px;
+}
+.footer__logo img {
+  width: 100%;
+}
+
+.footer__subscribe-title {
+  margin-bottom: 24px;
+  color: #364C49;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.footer__subscribe-description {
+  margin-bottom: 24px;
+  color: #7C807F;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.footer__subscribe form {
+  position: relative;
+  display: block;
+}
+.footer__subscribe form input {
+  width: 100%;
+  height: 58px;
+  border-bottom: 1px solid #C4C4C4;
+  color: #364C49;
+  padding-bottom: 10px;
+  font-size: 18px;
+  padding-right: 58px;
+}
+.footer__subscribe form button {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #BCBFB7;
+  border-radius: 48px;
+  justify-content: center;
+  align-content: center;
+}
+.footer__subscribe form button svg {
+  stroke: #7C807F;
+}
+.footer__subscribe form button:hover {
+  background: #BCBFB7;
+}
+.footer__subscribe form button:hover svg {
+  stroke: #fff;
+}
+
+.footer__menu {
+  padding: 24px;
+}
+.footer__menu ul li {
+  margin-bottom: 24px;
+}
+.footer__menu ul li a {
+  display: inline;
+  color: #7C807F;
+  font-size: 18px;
+  line-height: 130%;
+}
+.footer__menu ul li a:hover {
+  color: #38524F;
+}
+.footer__menu ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer__subtitle {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 130%;
+  font-family: "FuturaPT-Medium", sans-serif;
+  color: #38524F;
+}
+
+.footer__contacts {
+  padding: 24px;
+}
+
+.footer__address {
+  margin-bottom: 24px;
+  color: #7C807F;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.footer__email {
+  margin-bottom: 40px;
+}
+.footer__email a {
+  display: inline;
+  color: #DD5757;
+  font-size: 18px;
+  line-height: 140%;
+}
+.footer__email a:hover {
+  color: #38524F;
+}
+
+.footer__socials {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.footer__socials a {
+  margin: 8px;
+}
+.footer__socials a:hover {
+  opacity: 0.5;
+}
+
+.footer__description {
+  padding: 24px;
+  position: relative;
+  color: #7C807F;
+  font-size: 14px;
+  line-height: 150%;
+}
+.footer__description:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: calc(100% - 48px);
+  left: 24px;
+  bottom: 0;
+  height: 1px;
+  background: #CCC7BF;
+}
+
+.footer__links {
+  padding: 12px 0px;
+}
+.footer__links a {
+  padding: 12px 0px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #DD5757;
+  font-size: 16px;
+  line-height: 140%;
+}
+.footer__links a:hover {
+  color: #38524F;
+}
+
+.footer__creator {
+  color: #7C807F;
+  font-size: 14px;
+  line-height: 140%;
+  padding: 24px;
+}
+.footer__creator a {
+  color: #7C807F;
+  display: inline;
+  border-bottom: 1px solid #7C807F;
+}
+.footer__creator a:hover {
+  border-color: transparent;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__info {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer__info {
+    width: 100%;
+  }
+
+  .footer__subscribe-description {
+    margin-bottom: 8px;
+  }
+
+  .footer__subscribe-title {
+    margin-bottom: 8px;
+  }
+
+  .footer__logo {
+    margin-bottom: 32px;
+  }
+
+  .footer__menu ul li {
+    margin-bottom: 12px;
+  }
+
+  .footer__email {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__menu {
+    width: 50%;
+  }
+
+  .footer__links {
+    padding: 12px;
+  }
+  .footer__links a {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .footer__info {
+    padding: 12px 24px;
+  }
+
+  .footer__logo {
+    margin-bottom: 12px;
+  }
+
+  .footer__subscribe-title {
+    font-size: 22px;
+  }
+
+  .footer__subscribe-description {
+    font-size: 16px;
+  }
+
+  .footer__subscribe form input {
+    font-size: 16px;
+    height: 48px;
+  }
+  .footer__subscribe form button {
+    width: 38px;
+    height: 38px;
+  }
+
+  .footer__menu {
+    width: 100%;
+    padding: 12px 24px;
+  }
+
+  .footer__subtitle {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .footer__contacts {
+    padding: 12px 24px;
+  }
+
+  .footer__address,
+.footer__email {
+    margin-bottom: 12px;
+  }
+
+  .footer__description {
+    padding: 12px 24px 24px 24px;
+  }
+
+  .footer__creator {
+    padding: 12px 24px 24px 24px;
+  }
+
+  .footer__links {
+    padding: 20px 12px 0px 12px;
+  }
+  .footer__links a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
